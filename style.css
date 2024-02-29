@@ -3,3 +3,26 @@ body{
     padding: 0;
     margin: 0;
 }
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    width: 50px;
+    height: 50px;
+}
+nav{
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+}
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
