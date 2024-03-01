@@ -55,4 +55,86 @@ nav{
 .sliderImg{
     width: 500px;
     height: 650px;
+    z-index: 1;
+    
+}
+.slider{
+    background-image: url(./img/D.png);
+    overflow: hidden;
+}
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
+}
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sliderBg{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: gold;
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    z-index: 1;
+}
+.sliderPrice{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    border: 1px solid gray;
+    z-index: 1;
+}
+.buybutton{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    border: 1px solid gray;
+    background-color: black;
+    z-index: 1;
+    cursor: pointer;
+}
+.buybutton:hover{
+    background-color: white;
+    color: black;
+}
+.sliderItem:nth-child(1) .sliderBg{
+    background-color: rgb(179, 101, 24);
+
+}.sliderItem:nth-child(2) .sliderBg{
+    background-color: rgb(179, 24, 45);
+
+}.sliderItem:nth-child(3) .sliderBg{
+    background-color: rgb(224, 199, 126);
+
+}.sliderItem:nth-child(1) .sliderPrice{
+    color: rgb(179, 101, 24);
+
+}.sliderItem:nth-child(2) .sliderPrice{
+    color: rgb(179, 24, 45);
+
+}.sliderItem:nth-child(3) .sliderPrice{
+    color: rgb(224, 199, 126);
+
 }
