@@ -59,9 +59,13 @@ nav{
     
 }
 .slider{
-    background-image: url(./img/D.png);
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-image: url(./img/D1.png);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); 
     overflow: hidden;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .sliderWrapper{
     display: flex;
