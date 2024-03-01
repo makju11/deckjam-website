@@ -60,6 +60,7 @@ nav{
 }
 .slider{
     background-image: url(./img/D.png);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     overflow: hidden;
 }
 .sliderWrapper{
@@ -137,4 +138,37 @@ nav{
 }.sliderItem:nth-child(3) .sliderPrice{
     color: rgb(224, 199, 126);
 
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featureTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10;
+}
+.featuredDesc{
+    color: gray;
+    width: 100%;
+    height: 100px;
+}
+.featureIcon1{
+    width: 50px;
+    height: 30px;
+}
+.featureIcon2{
+    width: 40px;
+    height: 40px;
+}
+.featureIcon3{
+    width: 35px;
+    height: 35px;
 }
