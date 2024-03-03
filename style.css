@@ -52,8 +52,20 @@ nav{
     cursor: pointer;
     color: lightgray;
 }
-.sliderImg{
+.sliderImg1{
     width: 500px;
+    height: 600px;
+    z-index: 1;
+    
+}
+.sliderImg2{
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    
+}
+.sliderImg3{
+    width: 400px;
     height: 650px;
     z-index: 1;
     
@@ -177,7 +189,7 @@ nav{
 }
 .productImg{
     width: 500px;
-    height: 650px;
+    height: 600px;
     margin-left: 300px;
 }
 .product{
@@ -191,7 +203,7 @@ nav{
 .productDetails{
     position: absolute;
     top: 10%;
-    right: 500;
+    right: 0;
     width: 40%;
     padding: 50px;  
 }
@@ -216,7 +228,7 @@ nav{
     cursor: pointer;
 }
 .color:last-child{
-    background-color: gray;
+    background-color: blue;
 }
 .size{
     padding: 5px 10px;
@@ -226,7 +238,7 @@ nav{
     font-size: 20px;
 }
 .productButton{
-    float: right;
+    float: right 50px;
     padding: 10px 20px;
     background-color: black;
     color: white;
