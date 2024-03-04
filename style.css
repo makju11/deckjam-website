@@ -74,12 +74,18 @@ nav{
     
 }
 .slider{
-    background-image: url(./img/D1.png);
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-image: url(./img/bg2.png);
+    clip-path: circle(50% at 50% 50%);
     overflow: hidden;
-    background-repeat: no-repeat;
     background-size: cover;
 
+}
+.background{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/bg1.png);
+    background-size: cover;
+    /* background: rgb(0, 0, 0, 0.2); */
 }
 .sliderWrapper{
     display: flex;
@@ -193,16 +199,28 @@ nav{
 .productImg{
     width: 500px;
     height: 600px;
-    margin-left: 300px;
+    margin-left: 400px;
+    margin-top: 100px;
 }
 .product{
     height: 100vh;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+
     position: relative;
-    
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/bg1.png);
+    background-size: cover;
     clip-path: polygon(0 0, 75% 0, 100% 100%, 24% 100%);
     
 }
+.productbackground{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/bg2.png);
+    background-size: cover;
+}
+
 .productDetails{
     position: absolute;
     top: 10%;
