@@ -96,3 +96,14 @@ currentProductSizes.forEach((size, index) => {
     }
     )
 })
+
+const productButton = document.querySelector(".productButton");
+const payment = document.querySelector(".payment");
+const exit = document.querySelector(".exit");
+
+productButton.addEventListener("click",()=>{
+    payment.style.display="flex"
+})
+exit.addEventListener("click",()=>{
+    payment.style.display="none"
+})
