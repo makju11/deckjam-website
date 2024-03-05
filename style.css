@@ -212,7 +212,22 @@ nav{
     background-image: url(./img/bg1.png);
     background-size: cover;
     clip-path: polygon(0 0, 75% 0, 100% 100%, 24% 100%);
-    
+}
+.payment{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 .productbackground{
     margin: 0;
