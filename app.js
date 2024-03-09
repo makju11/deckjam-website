@@ -4,31 +4,31 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
     {
     id: 1,
-    title: "Hoodies",
+    title: "Oversized",
     price: 2000,
     colors: [
         {
-            code: "green",
-            img: "./img/greenhoodie.png",
+            code: "gold",
+            img: "./img/goldhoodie.png",
         },
         {
-            code: "blue",
-            img: "./img/bluehoodie.png",
+            code: "black",
+            img: "./img/blackhoodie.png",
         },
     ],
 },
 {
     id: 2,
-    title: "Shirts",
+    title: "SLim Fit",
     price: 2000,
     colors: [
         {
             code: "black",
-            img: "./img/blackshirt.png",
+            img: "./img/redhoodie7.png",
         },
         {
             code: "red",
-            img: "./img/redshirt.png",
+            img: "./img/redhoodie9.png",
         },
     ],
 },
