@@ -369,13 +369,17 @@ width: 30%;
 }
 .nrItem{
     flex: 1;
-    background-color: gray;
+    background-color: #01B140;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.vid{
+    width: 40%;
+    height: 30%;
 }
 .nrImg{
     width: 100%;
@@ -388,4 +392,43 @@ width: 30%;
     padding: 20px;
     font-weight: 600;
     cursor: pointer;
+}
+footer{
+    display: flex;
+}
+.footerLeft{
+    margin-top: 20px;
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.fMenuTitle{
+    font-size: 16px;
+}
+.fList{
+    padding: 0;
+    list-style: none;
+}
+.fListItem{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.footerRight{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fIcons{
+    display: flex;
+}
+.footerLogo{
+    width: 60%;
+    
+}
+.copyright{
+
 }
