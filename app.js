@@ -19,7 +19,7 @@ const products = [
 },
 {
     id: 2,
-    title: "SLim Fit",
+    title: "Slim Fit",
     price: 2000,
     colors: [
         {
