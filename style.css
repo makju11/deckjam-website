@@ -441,3 +441,127 @@ footer{
     font-weight: 300;
     font-size: 14px;
 }
+@media screen  and (max-width:480px){
+    nav{
+        padding: 20px;
+    }
+    .search{
+        display: none;
+    }
+    .navBottom{
+        flex-wrap: wrap;
+    }
+    .menuItem{
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .slider{
+        clip-path: none;
+    }
+    .sliderImg1{
+        width: 80%;
+        height: 75%;
+    }
+    .sliderImg2{
+        width: 85%;
+        height: 70%;
+    }
+    .sliderImg3{
+        width: 70%;
+        height: 70%;
+    }
+    .sliderBg{
+        width: 100%;
+        height: 100%;
+    }
+    .sliderTitle{
+        display: none;
+    }
+    .sliderPrice{
+        top:unset;
+        bottom: -50;
+        left: 0;
+        background-color: lightgrey;
+    }
+    .buybutton{
+        right: 0;
+        top: 0;
+    }
+    .features{
+        flex-direction: column;
+        text-align: center;
+    }
+    .product{
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .productImg{
+        width: 350px;
+        height: 400px;
+        margin-left: 10px;
+    }
+    .productDetails{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+    .productPrize{
+        margin-top: -20px;
+    }
+    .productDesc{
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .productTitle{
+        font-size: 50px;
+        margin: 0;
+    }
+    .payment{
+        width: 90%;
+        padding: 20px;
+    }
+    .image{
+        width: 90%;
+        display: flex;
+    }
+    .gallery{
+        display: none;
+    }
+    .newRelease{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .nrImg{
+        height: 90%;
+    }
+    .nrItem: :nth-child(2){
+        padding: 50px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Left{
+        padding: 20px;
+        width: 90%;
+        text-align: center;
+    }
+    .Right{
+        padding: 20px;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+    .fIcon1{
+        margin-left: 7px;
+    }
+}
